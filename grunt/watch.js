@@ -2,6 +2,13 @@ module.exports = {
 	options: {
 		livereload: true
 	},
+	grunt: {
+	    files: [ 'Gruntfile.js', 'grunt/*.{js,yaml}'],
+	    tasks: ['jshint'],
+		options: {
+			reload: true
+		}
+	},
 	css: {
 		files: 'dist/**/*.css'
 	},
