@@ -1,0 +1,22 @@
+{
+  "name": "speakincodes",
+  "version": "0.0.1",
+  "homepage": "https://github.com/adamj88/speakincodes",
+  "authors": [
+    "Adam <adam@berrygrab.com>"
+  ],
+  "description": "Speak in Codes Blog",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
