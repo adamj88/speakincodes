@@ -14,10 +14,16 @@ module.exports = {
 	},
 	jekyll: {
 		files: 'src/**/*.{md,markdown,html,textile}',
-		tasks: ['jekyll:dist']
+		tasks: ['jekyll:dist'],
+		options: {
+			atBegin: true
+		}
 	},
 	scss: {
 		files: 'src/scss/**/*.scss',
-		tasks: ['sass:dev']
+		tasks: ['sass:dev'],
+		options: {
+			atBegin: true
+		}
 	}
 };
