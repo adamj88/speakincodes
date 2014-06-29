@@ -1,7 +1,9 @@
 default:
-  - 'jekyll'
+  - 'serve'
 deploy:
   - 'jekyll:dist'
   - 'scss:dist'
   - 'clean'
   - 'gh-pages'
+serve:
+  - 'concurrent:serve'

@@ -7,5 +7,11 @@ module.exports = {
 		options: {
 			dest: 'dist'
 		}
+	},
+	serve: {
+		options: {
+			dest: 'dist',
+			serve: true
+		}
 	}
 };
