@@ -10,7 +10,8 @@
     "load-grunt-tasks": "~0.6.0",
     "load-grunt-config": "~0.10.0",
     "time-grunt": "~0.3.2",
-    "grunt-jekyll": "~0.4.2"
+    "grunt-jekyll": "~0.4.2",
+    "grunt-gh-pages": "~0.9.1"
   },
   "devDependencies": {},
   "scripts": {
