@@ -29,3 +29,9 @@ node_modules
 
 # Compiled version
 dist
+
+# Bower Installed Depenencies
+src/fonts/
+src/js/
+src/scss/fontawesome
+src/scss/foundation

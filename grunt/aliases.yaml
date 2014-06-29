@@ -1,5 +1,7 @@
 default:
   - 'serve'
+build:
+  - 'bowercopy'
 deploy:
   - 'jekyll:dist'
   - 'scss:dist'
