@@ -1,6 +1,8 @@
 module.exports = {
 	options: {
-		base: 'dist'
+		base: 'dist',
 	},
-	src: '**/*'
+	'gh-pages': {
+		src: '**/*'
+	}
 };
