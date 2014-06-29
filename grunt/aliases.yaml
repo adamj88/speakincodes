@@ -1,2 +1,5 @@
 default:
   - 'jekyll'
+deploy:
+  - 'jekyll:dist'
+  - 'gh-pages'
