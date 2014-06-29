@@ -5,6 +5,7 @@ build:
 deploy:
   - 'jekyll:dist'
   - 'scss:dist'
+  - 'htmlmin:dist'
   - 'clean'
   - 'gh-pages'
 serve:
