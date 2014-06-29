@@ -2,4 +2,6 @@ default:
   - 'jekyll'
 deploy:
   - 'jekyll:dist'
+  - 'scss:dist'
+  - 'clean'
   - 'gh-pages'
