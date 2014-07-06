@@ -2,19 +2,24 @@ module.exports = {
 	options: {
 		clean: true,
 	},
-	scss: {
+	css: {
 		options: {
-			destPrefix: 'src/scss'
+			destPrefix: 'src/css'
 		},
 		files: {
-			// Foundation
-			'': 'foundation/scss/foundation/_settings.scss',
-			'foundation/': 'foundation/scss/foundation/_functions.scss',
-			'foundation/components/': 'foundation/scss/foundation/components/*.scss',
-			// Font Awesome
-			'fontawesome/': 'fontawesome/scss/**/*.scss' 
+			'prism.css': 'prismjs/prism.css',
+			'prism-okaidia.css': 'prismjs/prism-okaidia.css'
 		}
 	},
+    fonts: {
+        options: {
+            destPrefix: 'src/fonts'
+        },
+        files: {
+            // Font Awesome
+            '': 'fontawesome/fonts/*' 
+        }
+    },
 	js: {
 		options: {
 			destPrefix: 'src/js'
@@ -28,15 +33,23 @@ module.exports = {
 			'jquery.cookie.js': 'jquery.cookie/jquery.cookie.js',
 			'modernizr.js': 'modernizr/modernizr.js',
 			'fastclick.js': 'fastclick/lib/fastclick.js',
+			// Prism
+			'prism.js': 'prismjs/prism.js',
+			'prism-css.js': 'prismjs/components/prism-css.js',
+			'prism-scss.js': 'prismjs/components/prism-scss.js',
 		}
 	},
-    fonts: {
-        options: {
-            destPrefix: 'src/fonts'
-        },
-        files: {
-            // Font Awesome
-            '': 'fontawesome/fonts/*' 
-        }
-    }
+	scss: {
+		options: {
+			destPrefix: 'src/scss'
+		},
+		files: {
+			// Foundation
+			// '/': 'foundation/scss/foundation/_settings.scss',
+			'foundation/': 'foundation/scss/foundation/*.scss',
+			'foundation/components/': 'foundation/scss/foundation/components/*.scss',
+			// Font Awesome
+			'fontawesome/': 'fontawesome/scss/**/*.scss' 
+		}
+	},
 };

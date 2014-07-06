@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "foundation": "~5.3.0",
-    "fontawesome": "~4.1.0"
+    "fontawesome": "~4.1.0",
+    "prismjs": "*"
   }
 }
