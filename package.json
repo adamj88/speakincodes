@@ -12,13 +12,13 @@
     "time-grunt": "~0.3.2",
     "grunt-jekyll": "~0.4.2",
     "grunt-gh-pages": "~0.9.1",
-    "grunt-sass": "~0.14.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-concurrent": "~0.5.0",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-bowercopy": "~1.1.0",
-    "grunt-contrib-htmlmin": "~0.3.0"
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-sass": "~0.7.3"
   },
   "devDependencies": {},
   "scripts": {
