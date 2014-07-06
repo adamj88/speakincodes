@@ -13,8 +13,8 @@ module.exports = {
 		files: 'dist/**/*.css'
 	},
 	jekyll: {
-		files: 'src/**/*.{md,markdown,html,textile}',
-		tasks: ['jekyll:dist'],
+		files: 'src/**/*.{md,markdown,html,textile,rb}',
+		tasks: ['jekyll:dist', 'sass:dev'],
 		options: {
 			atBegin: true
 		}
