@@ -1,6 +1,7 @@
 module.exports = {
 	options: {
-		livereload: true
+		livereload: true,
+		interupt: true
 	},
 	grunt: {
 	    files: [ 'Gruntfile.js', 'grunt/*.{js,yaml}'],
