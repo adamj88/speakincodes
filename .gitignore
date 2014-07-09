@@ -33,5 +33,13 @@ dist
 # Bower Installed Depenencies
 src/fonts/
 src/js/
+src/css/
 src/scss/fontawesome
 src/scss/foundation
+
+# Sublime project
+*.sublime-project
+*.sublime-workspace
+
+# Cache files
+*.scssc
