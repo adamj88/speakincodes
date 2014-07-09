@@ -1,3 +1,4 @@
 module.exports = {
-	scss: ['dist/scss', 'dist/**/*.css.map']
+	dist: ['dist/scss', 'dist/**/*.map'],
+	js: ['dist/js']	
 };

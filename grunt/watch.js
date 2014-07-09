@@ -15,7 +15,11 @@ module.exports = {
 	},
 	jekyll: {
 		files: 'src/**/*.{md,markdown,html,textile,rb}',
-		tasks: ['jekyll:dist', 'sass:dev'],
+		tasks: ['jekyll:dist', 'sass:dev']
+	},
+	js:  {
+		files: 'src/js/**/*.js',
+		tasks: ['uglify:dev'],
 		options: {
 			atBegin: true
 		}

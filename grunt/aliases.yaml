@@ -6,7 +6,9 @@ deploy:
   - 'jekyll:dist'
   - 'scss:dist'
   - 'htmlmin:dist'
-  - 'clean'
+  - 'clean:js'
+  - 'uglify:dist'
+  - 'clean:dist'
   - 'gh-pages'
 serve:
   - 'concurrent:serve'
