@@ -1,3 +1,3 @@
 module.exports = {
-    all: ['Gruntfile.js']
+    grunt: ['Gruntfile.js', 'grunt/**/*.js'],
 };

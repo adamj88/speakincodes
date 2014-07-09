@@ -5,7 +5,7 @@ module.exports = {
 	},
 	grunt: {
 	    files: [ 'Gruntfile.js', 'grunt/*.{js,yaml}'],
-	    tasks: ['jshint'],
+	    tasks: ['jshint:grunt'],
 		options: {
 			reload: true
 		}
